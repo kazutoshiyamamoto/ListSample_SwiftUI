@@ -15,6 +15,8 @@
 		FD1987802592C359002EE337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD19877E2592C359002EE337 /* LaunchScreen.storyboard */; };
 		FD19878B2592C35A002EE337 /* ListSample_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD19878A2592C35A002EE337 /* ListSample_SwiftUITests.swift */; };
 		FD1987962592C35A002EE337 /* ListSample_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1987952592C35A002EE337 /* ListSample_SwiftUIUITests.swift */; };
+		FD1987AA259317E3002EE337 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1987A9259317E3002EE337 /* SampleData.swift */; };
+		FD1987AF25933605002EE337 /* SampleListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1987AE25933605002EE337 /* SampleListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FD1987912592C35A002EE337 /* ListSample_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListSample_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1987952592C35A002EE337 /* ListSample_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSample_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		FD1987972592C35A002EE337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD1987A9259317E3002EE337 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		FD1987AE25933605002EE337 /* SampleListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				FD1987732592C355002EE337 /* AppDelegate.swift */,
 				FD1987752592C355002EE337 /* SceneDelegate.swift */,
 				FD1987772592C355002EE337 /* ContentView.swift */,
+				FD1987A9259317E3002EE337 /* SampleData.swift */,
+				FD1987AE25933605002EE337 /* SampleListRow.swift */,
 				FD1987792592C359002EE337 /* Assets.xcassets */,
 				FD19877E2592C359002EE337 /* LaunchScreen.storyboard */,
 				FD1987812592C359002EE337 /* Info.plist */,
@@ -269,6 +275,8 @@
 				FD1987742592C355002EE337 /* AppDelegate.swift in Sources */,
 				FD1987762592C355002EE337 /* SceneDelegate.swift in Sources */,
 				FD1987782592C355002EE337 /* ContentView.swift in Sources */,
+				FD1987AF25933605002EE337 /* SampleListRow.swift in Sources */,
+				FD1987AA259317E3002EE337 /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

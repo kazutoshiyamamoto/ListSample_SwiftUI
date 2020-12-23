@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    let listContents = ["お知らせ1", "お知らせ2", "お知らせ3", "お知らせ4", "お知らせ5"]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(0 ..< listContents.count) { item in
+                Text(listContents[item])
+            }
+            .navigationBarTitle("お知らせ")
+        }
     }
 }
 
