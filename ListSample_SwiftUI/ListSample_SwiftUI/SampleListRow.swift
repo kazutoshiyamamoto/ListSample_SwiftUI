@@ -8,13 +8,26 @@
 import SwiftUI
 
 struct SampleListRow: View {
+    var sampleData: SampleData
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(systemName: "exclamationmark.bubble")
+                .frame(width: 50, height: 50)
+            VStack(alignment: .leading, spacing: 5, content: {
+                Text(sampleData.title)
+                Text(sampleData.time)
+                    .font(.caption)
+                    .foregroundColor(.gray)
+            })
+            Spacer()
+        }
     }
 }
 
 struct SampleListRow_Previews: PreviewProvider {
     static var previews: some View {
-        SampleListRow()
+        SampleListRow(sampleData: sampleDataArray[0])
+            .previewLayout(.fixed(width: 300, height: 80))
     }
 }
