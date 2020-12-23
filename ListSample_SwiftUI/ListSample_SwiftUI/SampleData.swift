@@ -5,4 +5,9 @@
 //  Created by home on 2020/12/23.
 //
 
-import Foundation
+
+struct SampleData: Identifiable {
+    var id: Int
+    var time: String
+    var title: String
+}
